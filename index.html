@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./librery/font awesome/css/font-awesome.css">
 
     <title>Exam-Website by Bithe</title>
@@ -34,7 +35,7 @@
             <!-- Hero area part  -->
             <section class="md:w-[1210px] w-[400px]  mt-[50px] mx-auto">
                 <div class="flex items-center gap-64 bg-pink-100 ">
-                      <div class="flex flex-wrap md:flex-nowrap gap-3 justify-center">
+                      <div   data-aos="zoom-out-right" class="flex flex-wrap md:flex-nowrap gap-3 justify-center">
                         <div class="md:w-[450px] w-[300px] ml-10">
                           <h1 class="text-[40px] font-bold ">Mi LED TV 4A PRO 32</h1>
                             <p class="text-base mb-2 mt-[10px]">Amet minim mollit non deserunt ullamco est sit velit aliqua dolor do amet sint .
@@ -48,14 +49,16 @@
                             </div>
                         </div>
                         </div>
-                        <img src="./image/Image 6 1.png "class="w-[400px] " />
+                        <img src="./image/Image 6 1.png "class="w-[400px]" />
                      
                     </div>
                     </section>
                     <!-- Categories -->
                      <section  class="md:w-[1128px] w-[400px] h-[220px] mt-[50px] mx-auto">
                         <h1 class="font-bold text-[30px]">Categories</h1>
-                        <div class="flex justify-between ">
+                        <div  data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500" class="flex justify-between ">
                         <div class="flex items-center btn text-white bg-[#ffd900d9] mt-[20px] gap-16 w-[359px] h-[120px] rounded  px-14 py-2 ">
                             <h1 class="font-bold text-[30px]">Watch</h1>
                             <img src="./image/trzcacak 1.png" class="w-[100px] h-[100px]" alt="">
@@ -139,10 +142,10 @@
                             <h1 class="text-[36px] font-bold">Backpack</h1>
                           </div>
   
-                          <div class="grid grid-cols-1 md:grid-cols-3 ml-9 mt-8 ">
+                          <div  class="grid grid-cols-1 md:grid-cols-3 ml-9 mt-8 ">
                           <div class=" bg-white md:w-[360px] md:h-[496px] rounded-2xl text-center ">
                               <figure>
-                                <img
+                                <img 
                                   src="./image/pngfuel (3).png"
                                   alt=""  class=" hover:scale-105 transition-all duration-400"/>
                               </figure>
@@ -215,5 +218,15 @@
                      
               
     </main>
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+        
+  <script>
+    AOS.init();
+  </script>
+  
+  
+  
 </body>
 </html>
